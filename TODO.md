@@ -7,9 +7,8 @@
 - `render.yaml` (plan Starter recomendado)
 - `README.md` con instrucciones de deploy
 - `gunicorn` en requirements para produccion
-- **TODO:** Crear repo en GitHub y hacer push
-- **TODO:** Conectar repo en Render (Blueprint)
-- **FIXME:** Plan Free de Render (512MB) probablemente no alcanza; usar Starter
+- **TODO:** Conectar repo en Render (Blueprint) — repo: https://github.com/AngelMamani/backend-somnoguard
+- **FIXME:** Render Blueprint con plan `starter` pedia tarjeta; cambiado a `free` en render.yaml
 
 ## 2026-06-19 — App movil SomnoGuard (Flutter)
 
