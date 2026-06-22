@@ -1,0 +1,12 @@
+flask>=3.0.0
+flask-cors>=4.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+av>=10.0.0
+pillow>=10.0.0
+numpy>=1.24.0
+fvcore>=0.1.5
+iopath>=0.1.9
+yacs>=0.1.8
+gunicorn>=22.0.0

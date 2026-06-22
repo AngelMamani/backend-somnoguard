@@ -1,0 +1,50 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+env/
+.env
+.env.*
+*.log
+
+# Modelo / cache local
+backend/model/kinetics_classnames.json
+.pytest_cache/
+.mypy_cache/
+
+# Videos temporales
+*.mp4
+*.avi
+*.mov
+!**/test/fixtures/*.mp4
+
+# Flutter / Android
+cnn_3d/.dart_tool/
+cnn_3d/.flutter-plugins
+cnn_3d/.flutter-plugins-dependencies
+cnn_3d/.packages
+cnn_3d/build/
+cnn_3d/.pub-cache/
+cnn_3d/.pub/
+cnn_3d/**/GeneratedPluginRegistrant.java
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore

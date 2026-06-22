@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: somnoguard-api
+    runtime: docker
+    rootDir: backend
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: RENDER
+        value: "true"
+      - key: PYTHON_VERSION
+        value: "3.10.0"
